@@ -121,19 +121,19 @@ namespace LuaX
       
 
         private async void Form1_Load(object sender, EventArgs e) {
-            this.Initialize("722401731777921078");
-            presence.details = "Artex - Roblox Exploit!";
-            presence.state = "discord.gg/wuDgeD";
+            this.Initialize("");
+            presence.details = "";
+            presence.state = "";
             string starttime = this.DateTimeToTimestamp(DateTime.UtcNow).ToString();
             if (long.TryParse(starttime, out long startTimestamp))
             {
                 presence.startTimestamp = startTimestamp;
             }
 
-            presence.largeImageKey = "artex";
-            presence.largeImageText = "Join at discord.gg/kSGtjrt";
-            presence.smallImageKey = "artex";
-            presence.smallImageText = "Artex - A Roblox Exploit";
+            presence.largeImageKey = "";
+            presence.largeImageText = "";
+            presence.smallImageKey = "";
+            presence.smallImageText = "";
 
             DiscordRpc.UpdatePresence(ref presence);
 
