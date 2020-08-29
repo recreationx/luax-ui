@@ -1,6 +1,8 @@
 # luax-ui
 This contains the old UI source for LuaX, a Roblox *tool*.
 
+This was created in 2019, thus apologies for the buggy and messy code.
+
 ## Credits
 
 All UI components and libraries used are credited to their respective owners.
@@ -9,7 +11,7 @@ All UI components and libraries used are credited to their respective owners.
 
 If any copyright violations are found, do open a issue and I will remove it upon request.
 
-
+If any **copyrighted or conflicting code** are found that you wish to be removed, open a issue.
 
 ## License
 
